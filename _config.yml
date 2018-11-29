@@ -1,0 +1,104 @@
+---
+# Site settings
+#Jekyll does not parse changes to _config.yml in watch mode, you must restart Jekyll to see changes to variables.
+title: O&P Foods
+logo_title: O&P Foods
+email: contact@oandpfoods.com
+description:
+  Olio & Pane - Tuscan Trattoria
+baseurl: /oandpfoods.com.au/ # the subpath of your site, e.g. /blog/
+#baseurl: / # the subpath of your site, e.g. /blog/
+url: https://davehiggins.github.io/oandpfoods.com.au # the base hostname & protocol for your site
+
+intro_logoimgfilename:
+  oandplogo.png
+
+
+
+  
+intro_h1:
+    O&P Foods is a specialist retail, wholesale and private label grocery importer.
+intro_h2:
+  Offering a range of the finest international and local food brands.    
+intro_para:
+
+intro_bgimgfilename:
+  freshpastaweb.png
+
+
+###### ------- About
+
+about_h2:
+  WHAT GUIDES AND DRIVES US
+about_bgimagefilename:
+  oliopanefront.jpg
+
+# About A
+about_h3_a:
+  HIGH QUALITY PRODUCTS
+about_p_a:
+  Award winning single varietal organic EVOO, traditional tomato and vegetable products and specialty fresh pasta retail lines.
+about_p_a2:
+  O&P Foods is also a procurement and supply specialist to the wholesale, foodservice, QSR and food manufacturing sectors.
+
+# About b
+about_h3_b:
+  WORLD CLASS FOOD PRODUCERS
+about_p_b:
+  We partner only with those producers and manufacturers who share our high standards.
+about_p_b2:
+  Passion with integrity are the core values of all our chosen food supply partners.
+
+# About c
+about_h3_c:
+  CUSTOMER FOCUSED
+about_p_c:
+  We aim to always exceed our customers’ expectations for quality food products and service.  
+about_p_c2:
+  Our international network ensures access to the most efficient supply chains with industry leading turnaround times.
+  
+
+######-----Products
+
+products_h2:
+  OUR SERVICES...
+products_p:
+  We connect buyers with the world’s best food producers, facilitating new product development and offering global procurement, import & local delivery solutions.
+products_bgimagefilename:
+  Bruschetta.png
+
+######-------Contact
+
+contact_h2:
+  
+contact_h1:
+    O&P Foods is a specialist retail & wholesale grocery importer, entrusted with some of the finest international and local food brands.
+intro_para:
+
+contact_bgimgfilename:
+  Antipasto.png
+
+#####----- Values
+
+values_h3_a:
+  PREMIUM QUALITY PRODUCTS
+values_h3_b:
+  HOME RENOVATION AND BUILDING INDUSTRIES
+values_h3_c:
+  STRONG BUSINESS RELATIONSHIPS
+
+
+#Intro
+facebook_link: https://www.facebook.com//
+twitter_link: https://twitter.com/Instaprop
+twitter_username: instaprop
+linkedin_link: https://www.linkedin.com/company-beta/18199103/
+instagram_link: https://www.instagram.com/insta_prop/
+
+
+
+# Build settings
+markdown: kramdown
+
+
+---

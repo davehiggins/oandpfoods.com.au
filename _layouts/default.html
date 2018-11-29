@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if IE 10]> <html class="ie10" lang="en"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]> <html lang="en"> <![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{{ site.baseurl }}ico/favicon.png">
+
+    <title> {{ site.title }} </title>
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.baseurl }}ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.baseurl }}ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}ico/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.baseurl }}ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{ site.baseurl }}ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="..{{ site.baseurl }}css/bootstrap.css" rel="stylesheet">
+    <link href="..{{ site.baseurl }}css/theme.css" rel="stylesheet">
+    <link href="..{{ site.baseurl }}css/theme-updates.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="..{{ site.baseurl }}css/magnific-popup.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="..{{ site.baseurl }}css/font-awesome.min.css" rel="stylesheet">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="..{{ site.baseurl }}js/modernizr.custom.js"></script>
+  </head>
+  <body>
+    <div class="preloader">
+       <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+    </div>
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper cbp-af-header">
+      <div class="container">
+        <!-- Fixed navbar -->
+        <div class="navbar cbp-af-inner" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand scroll" href="#intro" title="{{ site.logo_title }}" rel="home"><img src="..{{ site.baseurl }}img/{{ site.intro_logoimgfilename }}" alt="{{ site.logo_title }}" title="{{ site.logo_title }}" height="92" width="92"></a>
+                <h1><a class="navbar-brand scroll" href="#intro"> {{ site.logo_title }} </a></h1>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contactus">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Intro Main Part
+    ================================================== -->
+    <div id="intro">
+        <div class="item background-cover" style="background: url('..{{ site.baseurl }}img/{{ site.intro_bgimgfilename }}')">
+          <div class="container">
+            <div class="row">
+              <div class="carousel-caption-center overlay-text colour-white">
+                <h1> {{ site.intro_h1 }} </h1>
+                <h2> {{ site.intro_h2 }} </h2>
+                <p> {{ site.intro_para }} </p>
+              </div>
+            </div>
+          </div>
+          <div class="overlay-bg"></div>
+        </div>
+    </div>
+
+
+    <!-- About Section
+    ================================================== -->
+    <section id="about" class="content text-center light">
+        <div class="container">
+          <!-- Three columns of text below the carousel -->
+          <div class="row">
+            <div class="col-lg-12 overlay-text">
+              <h2> {{ site.about_h2 }} </h2>
+            </div><!-- /.col-lg-12 -->
+          </div><!-- /.row -->
+
+          <div class="row">
+            <div class="col-sm-4 text-center overlay-text icons">
+              <div class="icon-wrapper">
+                <i class="fa fa-trophy icon-large"></i>
+              </div>
+              <h3> {{ site.about_h3_a }} </h3>
+              <p> {{ site.about_p_a }} </p>
+              <p> {{ site.about_p_a2 }} </p>
+            </div>
+            <div class="col-sm-4 text-center overlay-text icons">
+              <div class="icon-wrapper">
+                <i class="fa fa-handshake-o icon-large"></i>
+              </div>
+              <h3> {{ site.about_h3_b }} </h3>
+              <p> {{ site.about_p_b }} </p>
+              <p> {{ site.about_p_b2 }} </p>
+            </div>
+            <div class="col-sm-4 text-center overlay-text icons">
+              <div class="icon-wrapper">
+                <i class="fa fa-users icon-large"></i>
+              </div>
+              <h3> {{ site.about_h3_c }} </h3>
+              <p> {{ site.about_p_c }} </p>
+              <p> {{ site.about_p_c2 }} </p>
+            </div>
+          </div><!-- /.row -->
+        </div>
+      <div class="overlay-bg  light"></div>
+    </section>
+
+
+    <!-- Products Sections
+    ================================================== -->
+    <section id="products" class="dark with-bg">
+
+
+      <div class="container">
+
+          <div class="row">
+            <div class="col-sm-5 overlay-text">
+              <div class="vertical-align">
+                <h2> {{ site.products_h2 }} </h2>
+                <p> {{ site.products_p }} </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="overlay-bg"></div>
+
+    </section>
+
+
+ <!-- Call to Action2
+    ================================================== -->
+    <section id="contactus" class="cta text-center ">
+
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-lg-12 overlay-text">
+
+            <h2> Want to get in touch with us? <br><span class="highlight">Send us a message.</span></h2>
+            
+            <p><button class="btn contact-button" type="button" role="button">Contact us</button></p>
+            
+            <div class='contact-form'>
+              
+               <form action="http://formspree.io/contact@oandpfoods.com" name="sentMessage" id="contactForm" method="POST" > 
+                
+                <div class='name'>
+                  <input name="first_name" class="form-control" placeholder='First Name' type='text' id="first_name" autofocus required >
+                  <input name="last_name" class="form-control" placeholder='Last Name' type='text' id="last_name" required >
+                </div>
+                
+                <div class='contact'>
+                  <input name="email" class="form-control" placeholder='E-mail Address' type='text' id="email" required >
+                </div>
+                
+                <div class='message'>
+                  <textarea name="message" class="form-control" placeholder='Your message' id="message" required  maxlength="999" style="resize:none"></textarea>
+                </div>
+                
+                <footer class="submit-button">
+
+                  <button type="submit">Send message</button>
+                </footer>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer id="contact" class="footer dark with-bg item background-cover" style="background: url('..{{ site.baseurl }}img/{{ site.contact_bgimgfilename }}')">
+        <div class="container">
+  
+            <div class="row">
+              <div class="col-sm-5">
+                <div class=" text-center">
+                  <div class="footer-logo overlay-text">
+                    <h3>O&P FOODS PTY LTD</h3>
+                    <p>328 Auburn Road<br>Hawthorn VIC 3122<br>Australia<br>www.oandpfoods.com</p>
+                    <br>
+                    <p class="muted">© 2017 O&P FOODS Pty Ltd.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-5 text-center">
+                <a class="icon" href="https://twitter.com/oliopane" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class="icon" href="https://www.facebook.com/OlioandPane/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a class="icon" href= "http://www.oandpfoods.com"  target="_blank"><i class="fa fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+      <div class="overlay-bg"></div>
+		</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="..{{ site.baseurl }}js/jquery-1.10.2.min.js"></script>
+    <script src="..{{ site.baseurl }}js/bootstrap.min.js"></script>
+    <script src="..{{ site.baseurl }}js/classie.js"></script>
+		<script src="..{{ site.baseurl }}js/cbpAnimatedHeader.min.js"></script>
+    <script src="..{{ site.baseurl }}js/owl.carousel.min.js"></script>
+    <script src="..{{ site.baseurl }}js/scrollReveal.js"></script>
+    <script src="..{{ site.baseurl }}js/jquery.scrollTo.js" defer="defer"></script>
+    <script src="..{{ site.baseurl }}js/jquery.nav.js" defer="defer"></script> 
+    <script src="..{{ site.baseurl }}js/imagesloaded.pkgd.min.js" defer="defer"></script>
+    <script src="..{{ site.baseurl }}js/isotope.min.js" defer="defer"></script>
+    <script src="..{{ site.baseurl }}js/jquery.magnific-popup.min.js" defer="defer"></script>
+    <script src="..{{ site.baseurl }}js/jqBootstrapValidation.js" defer="defer"></script>
+    <script src="..{{ site.baseurl }}js/custom.js"></script>
+
+  </body>
+</html>
