@@ -8,7 +8,7 @@ description:
   Olio & Pane - Tuscan Trattoria
 baseurl: /oandpfoods.com.au/ # the subpath of your site, e.g. /blog/
 #baseurl: / # the subpath of your site, e.g. /blog/
-url: https://davehiggins.github.io/oandpfoods.com.au # the base hostname & protocol for your site
+url: oandpfoods.com.au # the base hostname & protocol for your site
 
 intro_logoimgfilename:
   oandplogo.png
